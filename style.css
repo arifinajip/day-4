@@ -1,0 +1,387 @@
+  body{
+      margin: 0;
+      background-color: rgb(193, 197, 201);
+  }
+  nav{
+      display: flex;
+      background-color: rgb(193, 206, 219);
+      height: 7vh;
+
+  }
+  
+  .nav-left{
+        flex: 50%;
+        padding-left: 100px;
+        display: flex;
+        align-items: center;
+    }
+    .nav-left li{
+        display: inline;
+    }
+    .nav-left ul li a{
+        text-decoration: none;
+        color: black;
+        padding: 15px;
+
+    }
+    .nav-right{
+        flex: 50%;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        padding-right: 50px;
+    }
+
+    .nav-right a{
+        background-color: black;
+        color:white;
+        padding: 5px 20px;
+        border-radius: 10px;
+        text-decoration: none;
+    }
+
+
+.container {
+
+    height: 93vh;
+    display: flex;
+    align-items: center;
+
+}
+
+
+section {
+    width: 90%;
+    height: auto;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px auto;
+    border-radius: 10px;
+    padding: 100px 40px;
+    box-shadow: 8px 8px 18px #8888884f;
+}
+
+.container section {
+    width: 80%;
+    height: 50%;
+}
+
+
+section .section-left {
+    flex: 60%;
+    justify-content: center;
+    background-color: #ffffff;
+    
+}
+.section-left p{
+    justify-content: center;
+    text-align: justify;
+}
+.section-left a {
+    text-decoration: none;
+    padding-left:15px;
+    color: black;
+}
+
+.sosial-media {
+    margin-top: 30px;
+    font-size: 30px;
+    display: flex;
+}
+
+.sosial-media i {
+    margin-right: 20px;
+
+}
+
+section .section-right {
+    flex: 40%;
+    padding-left: 20px;
+}
+
+.section-right table {
+    width: 100%;
+    text-align: center;
+    background-color: white;
+    box-shadow: 8px 8px 18px #8888884f;
+    border-radius: 5px;
+    justify-content: center;
+}
+
+.section-right img {
+    width: 100%;
+    border-radius: 5px 5px 0px 0px;
+}
+/* CONTACT DAN BLOG  */
+
+.form {
+    width: 400px;
+    margin: 150px auto;
+    margin-top: 15px;
+}
+
+.form h2 {
+    margin-top: 50px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.form div {
+    margin-top: 20px;
+}
+
+.form div label {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.form input {
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid rgb(255, 255, 255);
+}
+
+.form select {
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid rgb(226, 226, 226);
+}
+
+.form textarea {
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid rgb(226, 226, 226);
+    height: 100px;
+    resize: vertical;
+
+}
+
+.submit {
+    display: flex;
+    justify-content: flex-end;
+    height: auto;
+
+}
+
+.form button {
+    margin-top: 20px;
+    padding: 8px 20px;
+    font-size: 17px;
+    background: #000000;
+    border-radius: 8px;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+
+/*MY PROJECT*/
+
+.date {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.date .start-date {
+    margin-right: 10px;
+}
+
+.form .description {
+    margin-top: 40px;
+}
+
+.technologies {
+    width: 100%;
+    margin: 20px 0;
+}
+
+.checkbox {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px -5px;
+    gap: 15px;
+    flex-wrap: wrap;
+    width: 80%;
+
+}
+
+.checkbox div {
+    display: flex;
+    width: 45%;
+}
+
+.checkbox label {
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    width: 700px;
+}
+
+
+.form .upload-image {
+    margin-top: 30px;
+}
+
+.form .input-blog-image-group {
+    width: 100%;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    background: #ffffff;
+    border: 1px solid #c4c4c4;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.form .input-blog-image-group label {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.form .input-blog-image-group label p {
+    font-size: 15px;
+}
+
+.form .button-group {
+    text-align: right;
+}
+
+/* ------------------------------------------------- */
+/* halaman blog project */
+
+.icon-project {
+    margin-top: 30px;
+    font-size: 30px;
+    display: flex;
+}
+
+.icon-project i {
+    margin-right: 10px;
+
+}
+
+.btn-group {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.btn-group .btn-edit {
+    margin-top: 50px;
+    padding: 8px 60px;
+    font-size: 17px;
+    background: #000000;
+    border-radius: 8px;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+.btn-group .btn-delete {
+    margin-top: 50px;
+    padding: 8px 60px;
+    font-size: 17px;
+    background: #000000;
+    border-radius: 8px;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+   
+}
+
+.projects-list {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    gap: 40px 0px;
+
+}
+
+.projects-list-item a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.projects-list-item .projects-img {
+    height: 200px;
+}
+
+
+.project-content .projects-list-item {
+    border: 1px solid rgb(207, 207, 207);
+    width: 350px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 25px rgb(243, 243, 243);
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.detail-project {
+    width: 80%;
+    margin: 0px auto;
+}
+
+.detail-project h1 {
+    text-align: center;
+    padding: 30px;
+}
+
+.detail-project .div-detail {
+    display: flex;
+    justify-content: space-between;
+}
+
+.detail-left {
+    width: 60%;
+}
+
+.detail-left img {
+    width: 100%;
+}
+
+.detail-right {
+    width: 40%;
+    margin-left: 30px;
+}
+
+.detail-right p {
+    display: flex;
+    align-items: center;
+}
+
+.detail-right i {
+    font-weight: bold;
+    font-size: 24px;
+    margin-right: 10px;
+}
+
+.detail-techno {
+    display: flex;
+}
+
+.detail-techno-right {
+    margin-left: 20px;
+}
+
+.detail-description {
+    text-align: justify;
+    margin: 50px auto;
+}

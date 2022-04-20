@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Project</title>
+        <link rel="stylesheet" href="style.css"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css">
+
+</head>
+<body>
+    <nav>
+        <div class="nav-left">
+            <img src="asset/logo.png" alt="logo" height="30px">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="My project.html">My Project</a></li>
+            </ul>
+        </div>
+
+        <div class="nav-right">
+            <a href="contact.html">Contact Me</a>
+
+        </div>
+
+    </nav>
+    <form class="form" onsubmit="addBlog(event)" >
+                <h2>ADD MY PROJECT</h2>
+                    <div>
+                        <label for="input-project-name">Project Name </label>
+                        <input type="text" id="input-project-name" >
+                        </div>
+                    <div class="date">
+                        <div class="start-date">
+                            <label for="input-start-date">Start Date </label>
+                            <input type="date" id="input-start-date" >    
+                        </div>
+                        <div class="end-date">
+                            <label for="input-end-date">End Date </label>
+                            <input type="date" id="input-end-date" >  
+                        </div>
+                    </div>
+                    <div class="description">
+                        <label for="input-description">Description</label>
+                        <textarea id="input-description" ></textarea>
+                    </div>
+                    <div class="technologies">
+                        <label>Technologies</label>
+                        <div class="checkbox">
+                            <div>
+                                <input type="checkbox" value="fa-brands fa-node-js" id="input-node-js">
+                                <label for="input-node-js">Node Js</label>
+                            </div>
+                            <div>
+                                <input type="checkbox" value="fa-brands fa-react" id="input-react-js">
+                                <label for="input-react-js">React Js</label>
+                            </div>
+                            <div>
+                                <input type="checkbox" value="fa-brands fa-angular" id="input-angular-js">
+                                <label for="input-angular-js">Angular Js</label>
+                            </div>
+                            <div>
+                                <input type="checkbox" value="fa-brands fa-java" id="input-java">
+                                <label for="input-java">Java</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="upload-image">
+                        <label>Upload Image</label>
+                        <div class="input-blog-image-group">
+                            <label for="input-blog-image">
+                            <p style="font-weight: normal;">Attach File</p>
+                            <img src="asset/upload.png" alt="upload" style="height: 35px;" />
+                            </label>
+                            <input type="file" id="input-blog-image" hidden />
+                        </div>
+                    </div>
+                    <div class="button-group">
+                        <button>Submit</button>
+                    </div>
+            </form> 
+            <!-- blog -->
+            <section class="project-content">
+                <div id="projects" class="projects-list">
+                    <div class="projects-list-item">
+                        <img class="projects-img" src="asset/js.jpg" width="100%" style="border-radius: 10px;" />
+                        <a href="Detail-project.html"><h3 >Tentang Javascript</h3></a>
+                        <p>Durasi: 1 bulan</p>
+                        <p style="color: grey">Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique pariatur architecto iusto facere est omnis eaque velit error magni ut?</p>
+                        <div class="icon-project">
+                            <i class="fa-brands fa-java"></i>
+                        </div>
+                        <div class="btn-group">
+                            <button class="btn-edit">Edit</button>
+                            <button class="btn-delete">Delete</button>
+                        </div>
+                    </div>
+                    <div class="projects-list-item">
+                        <img class="projects-img" src="asset/python.png" width="100%" style="border-radius: 10px;" />
+                        <a href="Detail-project.html"><h3 >Mengenal Lebih Dekat Dengan Phyton</h3></a>
+                        <p>Durasi: 2 bulan</p>
+                        <p style="color: grey">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod molestiae sequi, numquam iste nemo deleniti!</p>
+                        <div class="icon-project">
+                            <i class="fa-brands fa-node-js"></i>
+                            <i class="fa-brands fa-java"></i>
+                        </div>
+                        <div class="btn-group">
+                            <button class="btn-edit">Edit</button>
+                            <button class="btn-delete">Delete</button>
+                        </div>
+                    </div>
+                    <div class="projects-list-item">
+                        <img class="projects-img" src="asset/php.jpg" width="100%" style="border-radius: 10px;" />
+                        <a href="Detail-project.html"><h3 >Apa itu Bahasa Pemrogramana PHP</h3></a>
+                        <p>Durasi: 4 bulan</p>
+                        <p style="color: grey">Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio ab quaerat qui dolorum quas, facilis molestias, numquam eveniet, officiis sunt modi consequuntur fuga vitae minus aut excepturi exercitationem nisi.</p>
+                        <div class="icon-project">
+                            <i class="fa-brands fa-react"></i>
+                            <i class="fa-brands fa-angular"></i>
+                        </div>
+                        <div class="btn-group">
+                            <button class="btn-edit">Edit</button>
+                            <button class="btn-delete">Delete</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        <script src="project.js"></script>
+   
+</body>
+</html>
